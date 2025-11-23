@@ -1,0 +1,27 @@
+.head-section {
+    background: url(../img/bg-grey-1.png) no-repeat top right,
+                url(../img/bg-grey-6.png) no-repeat 32% 0,
+                url(../img/bg-grey-2.png) no-repeat bottom right;
+    background-size: auto, contain, auto;
+    background-color: #dfe4e7;
+    padding: 0;
+}
+.head-section .col-content {
+    padding: 120px 0;
+}
+.head-section .col-content i {
+    display: inline-block;
+    font-size: 30px;
+    color: #425366;
+    margin: 0 0 40px;
+}
+.head-section .col-content .h1 {
+    font-size: 50px;
+}
+.head-section .col-content .h3 {
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+/* --------------------- */

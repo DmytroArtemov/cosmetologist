@@ -1,0 +1,128 @@
+.head-section {
+    background: url(../img/bg-grey-1.png) no-repeat top right,
+                url(../img/bg-grey-2.png) no-repeat bottom right;
+    background-size: auto, auto;
+    background-color: #dfe4e7;
+    height: 450px;
+    padding: 0;
+}
+
+.head-section .col-img {
+    width: 100%;
+    height: 100%;
+    min-width: 570px;
+}
+
+.head-section .col-content {
+    margin: 0 50px;
+}
+
+.head-section .col-content .h3 {
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+/* --------------------- */
+
+.main-technical-section {
+    text-align: left;
+    padding: 0;
+}
+
+.main-technical-section .flex-box {
+    align-items: flex-start;
+    gap: 0 30px;
+}
+
+.main-technical-section .left-box {
+    width: 33%;
+}
+
+.main-technical-section .left-box .approach {
+    width: 100%;
+    background: #fff;
+    padding: 40px 20%;
+}
+
+.main-technical-section .left-box .photos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    margin: 30px 0 0;
+    padding: 40px;
+}
+
+.main-technical-section .left-box .photos .item {
+    width: 100px;
+    height: 150px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background: #b2c5d9;
+    overflow: hidden;
+}
+
+.main-technical-section .left-box p {
+    margin: 20px 0 0;
+    max-width: 300px;
+}
+
+.main-technical-section .midle-box {
+    width: 33%;
+    padding: 40px;
+}
+
+.main-technical-section .midle-box .h2 {
+    margin: 0 0 20px;
+}
+
+.main-technical-section .right-box {
+    width: 33%;
+    text-align: left;
+}
+
+.main-technical-section .right-box .offered {
+    background: #fff;
+    padding: 40px;
+}
+
+.main-technical-section .right-box .offered .h3 {
+    margin: 20px 0 0;
+}
+
+.main-technical-section .right-box .offered .list-proc {
+    margin: 20px 0 0 20px;
+}
+
+.main-technical-section .right-box .offered .list-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 10px;
+    margin: 20px 0 0;
+}
+
+/* ---------------------------------- */
+
+.contact {
+    margin: 40px 0 0;
+    background: url(../img/bg-grey-3.png) no-repeat right center #fff;
+    padding: 40px;
+}
+
+.contact .list-contact {
+    margin: 20px 0 0;
+}
+.contact .list-contact .list-contact-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0 0;
+}
+.contact .list-contact .list-contact-item i {
+    width: 40px;
+    text-align: center;
+    color: #425366;
+}
